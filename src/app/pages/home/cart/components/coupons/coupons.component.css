@@ -1,0 +1,90 @@
+ion-card {
+  margin: 0;
+}
+ion-card ion-row .amtSaved {
+  background-image: linear-gradient(to right, var(--ion-color-primary), var(--ion-color-secondary));
+}
+ion-card ion-row .amtInsufficient {
+  background: var(--ion-color-medium);
+}
+ion-card ion-row ion-col.offer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+ion-card ion-row ion-col.offer ion-label {
+  color: #fff;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  writing-mode: vertical-lr;
+  transform: rotateZ(180deg);
+}
+ion-card ion-row ion-col.offer .circle1,
+ion-card ion-row ion-col.offer .circle2,
+ion-card ion-row ion-col.offer .circle3,
+ion-card ion-row ion-col.offer .circle4 {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  left: -4px;
+}
+ion-card ion-row ion-col.offer .circle1 {
+  top: 20%;
+  transform: translateY(-20%);
+}
+ion-card ion-row ion-col.offer .circle2 {
+  top: 40%;
+  transform: translateY(-40%);
+}
+ion-card ion-row ion-col.offer .circle3 {
+  top: 60%;
+  transform: translateY(-60%);
+}
+ion-card ion-row ion-col.offer .circle4 {
+  top: 80%;
+  transform: translateY(-80%);
+}
+ion-card ion-row ion-col ion-item {
+  border-bottom: 1px dashed var(--ion-color-dark);
+}
+ion-card ion-row ion-col ion-item ion-label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+ion-card ion-row ion-col ion-item ion-label p {
+  margin-top: 5px;
+}
+ion-card ion-row ion-col ion-item ion-label p ion-text {
+  font-size: 0.8rem;
+}
+ion-card ion-row ion-col ion-row {
+  margin-bottom: 0.5rem;
+}
+ion-card ion-row ion-col ion-row ion-col {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+ion-card ion-row ion-col ion-row ion-col div {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+ion-card ion-row ion-col ion-row ion-col ion-button {
+  --color: dimgray;
+}
+
+.alignCenter {
+  margin-top: 20vh;
+}
+.alignCenter ion-icon {
+  font-size: 15vh;
+}
+
+.alignSpinner {
+  margin-top: 40vh;
+}/*# sourceMappingURL=coupons.component.css.map */

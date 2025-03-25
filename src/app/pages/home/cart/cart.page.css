@@ -1,0 +1,122 @@
+ion-content ion-item.total-item {
+  align-items: center;
+}
+ion-content ion-item.total-item ion-label {
+  margin: 0;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 600;
+}
+ion-content ion-item.total-item ion-icon {
+  font-size: 1rem;
+}
+ion-content ion-card.cart-item {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+ion-content ion-card.cart-item ion-item {
+  --padding-start: 0;
+  --inner-padding-end: 5px;
+}
+ion-content ion-card.cart-item ion-item ion-thumbnail {
+  height: 5rem;
+  width: 5rem;
+  margin: 0 16px 0 0;
+}
+ion-content ion-card.cart-item ion-item ion-thumbnail ion-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+ion-content ion-card.cart-item ion-item ion-label {
+  font-size: 0.95rem;
+}
+ion-content ion-card.cart-item ion-item ion-label p.price {
+  margin-top: 10px;
+}
+ion-content ion-card.cart-item ion-item ion-label p.price ion-text {
+  font-size: 1rem;
+  font-weight: normal;
+}
+ion-content ion-card.cart-item ion-item ion-label p.price ion-text span {
+  font-size: 0.7rem;
+  vertical-align: text-top;
+}
+ion-content ion-card.cart-item ion-item ion-col {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ion-content ion-card.cart-item ion-item ion-col ion-row ion-button {
+  --padding-start: 5px;
+  --padding-end: 5px;
+  width: 1.4rem;
+  min-height: 1.4rem;
+}
+ion-content ion-card.cart-item ion-item ion-col ion-row ion-button ion-icon {
+  font-size: 1rem;
+}
+ion-content ion-card.cart-item ion-item ion-col ion-row.quantity {
+  margin: 3px 0;
+  font-size: 0.85rem;
+}
+ion-content ion-list.coupon {
+  background: transparent;
+}
+ion-content ion-list.coupon ion-item-divider {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background: #fff;
+  padding-left: 0;
+  border-bottom: 0;
+}
+ion-content ion-list.coupon ion-card {
+  margin-top: 0.5rem;
+  border-radius: 8px;
+}
+ion-content ion-list.coupon ion-card ion-item {
+  margin: 0;
+}
+ion-content ion-list.coupon ion-card ion-item ion-label {
+  font-size: 0.9rem;
+}
+ion-content ion-list.coupon ion-card ion-item ion-label p {
+  font-size: 0.8rem;
+}
+ion-content ion-list.billing {
+  background: transparent;
+}
+ion-content ion-list.billing ion-list-header {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+ion-content ion-list.billing ion-item-group {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1px solid var(--ion-color-medium);
+  border-radius: 8px;
+}
+ion-content ion-list.billing ion-item-group ion-item {
+  --background: transparent;
+}
+ion-content ion-list.billing ion-item-group ion-item ion-label,
+ion-content ion-list.billing ion-item-group ion-item ion-text {
+  font-size: 0.9rem;
+}
+ion-content ion-list.billing ion-item-group ion-item p {
+  font-size: 0.7rem;
+  margin-top: 3px;
+}
+
+.dashedBorderTop {
+  border-top: 1px dashed var(--ion-color-medium);
+}
+
+.empty-screen {
+  margin-top: 10rem;
+}
+.empty-screen ion-icon {
+  font-size: 10rem;
+}/*# sourceMappingURL=cart.page.css.map */
