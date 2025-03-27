@@ -12,7 +12,7 @@ export class ApiService {
       price: 10000,
       status: true,
       rating: 4.9,
-      cover: 'assets/gifts/producto1.jpg',
+      cover: 'assets/gifts/product1.jpg',
       description: 'Unbox joy and excitement with our carefully curated Surprise Gift Basket, filled with delightful surprises.'
     },
     {
