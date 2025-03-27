@@ -8,129 +8,129 @@ export class ApiService {
   items: any[] = [
     {
       id: '1',
-      name: 'Set Cameras',
+      name: 'Globes',
       price: 10000,
       status: true,
       rating: 4.9,
       cover: 'assets/gifts/product1.jpg',
-      description: 'Unbox joy and excitement with our carefully curated Surprise Gift Basket, filled with delightful surprises.'
+      description: 'Brighten up any space with our vibrant and elegant decorative globes.'
     },
     {
       id: '2',
-      name: 'Luxury Chocolate Box',
+      name: 'Caffee',
       price: 5000,
       status: true,
       rating: 4.7,
       cover: 'assets/gifts/producto2.jpg',
-      description: 'Indulge in the rich and decadent flavors of our Luxury Chocolate Box, a perfect treat for any occasion.'
+      description: 'Enjoy the unique aroma and taste of our premium, perfectly roasted coffee.'
     },
     {
       id: '3',
-      name: 'OTT Subscription',
+      name: 'White',
       price: 15000,
       status: true,
       rating: 4.9,
       cover: 'assets/gifts/producto3.jpg',
-      description: 'Immerse yourself in a world of entertainment with our exclusive OTT Subscription gift.'
+      description: 'A timeless classic: high-quality white clothing for any special or casual occasion.'
     },
     {
       id: '4',
-      name: 'Designer Handbag',
+      name: 'Shoes',
       price: 10000,
       status: true,
       rating: 4.8,
       cover: 'assets/gifts/producto4.jpg',
-      description: 'Elevate your style with our chic and fashionable Designer Handbag, a statement piece for any ensemble.'
+      description: 'Walk in style and comfort with our modern and versatile shoe collection.'
     },
     {
       id: '5',
-      name: 'Personalized Mug',
+      name: 'Flowers',
       price: 35000,
       status: true,
       rating: 4.5,
       cover: 'assets/gifts/producto5.jpg',
-      description: 'Start your day with a touch of personalization using our delightful Personalized Mug.'
+      description: 'Surprise someone special with a beautiful bouquet of fresh and fragrant flowers.'
     },
     {
       id: '6',
-      name: 'Perfume Set',
+      name: 'Bag',
       price: 20000,
       status: true,
       rating: 4.9,
       cover: 'assets/gifts/producto6.jpg',
-      description: 'Discover the essence of luxury with our Perfume Set, a captivating blend of enchanting fragrances.'
+      description: 'Carry your essentials in style with our elegant and functional bags.'
     },
     {
       id: '7',
-      name: 'Jewelry Box',
+      name: 'Box M',
       price: 40000,
       status: true,
       rating: 4.6,
       cover: 'assets/gifts/producto7.jpg',
-      description: 'Store your precious jewels in style with our exquisitely designed Jewelry Box, a symbol of elegance.'
+      description: 'Medium storage box, perfect for organizing your belongings with a sophisticated touch.'
     },
     {
       id: '8',
-      name: 'Romantic Dinner Set',
+      name: 'Radio',
       price: 10000,
       status: true,
       rating: 4.9,
       cover: 'assets/gifts/producto8.jpg',
-      description: 'Create magical moments with our Romantic Dinner Set, perfect for a candlelit evening with your loved one.'
+      description: 'Enjoy the best music and news with our high-quality portable radio.'
     },
     {
       id: '9',
-      name: 'Leather Wallet',
+      name: 'Clothes',
       price: 25000,
       status: true,
       rating: 4.6,
       cover: 'assets/gifts/producto9.jpg',
-      description: 'Upgrade your accessory collection with our stylish and durable Leather Wallet, a blend of functionality and fashion.'
+      description: 'Explore our fashionable clothing collection, designed for comfort and everyday style.'
     },
     {
       id: '10',
-      name: 'Phone Case',
+      name: 'Clothes',
       price: 20000,
       status: true,
       rating: 4.7,
       cover: 'assets/gifts/producto10.jpg',
-      description: 'Protect your device in style with our trendy Phone Case, personalized for the modern individual.'
+      description: 'Versatile, high-quality garments to complement your wardrobe with elegance.'
     },
     {
       id: '11',
-      name: 'Diamond Jewelry',
+      name: 'Ice',
       price: 20000,
       status: true,
       rating: 4.6,
       cover: 'assets/gifts/producto14.jpg',
-      description: 'Adorn yourself with elegance and grace with our exquisite Diamond Jewelry collection.'
+      description: 'Premium ice cooler to keep your drinks cold for any special occasion.'
     },
     {
       id: '12',
-      name: 'Leather Travel Set',
+      name: 'Headphones',
       price: 50000,
       status: true,
       rating: 4.5,
       cover: 'assets/gifts/producto11.jpg',
-      description: 'Embark on journeys in style with our Leather Travel Set, crafted for the modern-day explorer.'
+      description: 'Experience immersive sound with our high-fidelity headphones.'
     },
     {
       id: '13',
-      name: 'Modern Wall Clock',
+      name: 'Box Té',
       price: 35000,
       status: true,
       rating: 4.7,
       cover: 'assets/gifts/producto12.jpg',
-      description: 'Enhance your living space with our Modern Wall Clock, a blend of functionality and contemporary design.'
+      description: 'Tea box with a selection of exclusive flavors for true tea lovers.'
     },
     {
       id: '14',
-      name: 'Eco-friendly Planters',
+      name: 'Box',
       price: 8500,
       status: true,
       rating: 4.5,
       cover: 'assets/gifts/producto13.jpg',
-      description: 'Bring nature indoors with our Eco-friendly Planters, designed for the eco-conscious and nature enthusiasts.'
+      description: 'The perfect gift box for storing memories and special keepsakes.'
     },
   ];
 
