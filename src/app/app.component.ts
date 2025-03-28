@@ -59,33 +59,32 @@ import {
 })
 export class AppComponent {
   profile = {
-    name: 'Nikki Thakur',
-    email: 'nikki786@gmail.com',
+    name: 'Ana Maria',
+    email: 'ana1234@gmail.com',
   };
 
   pages = [
     { title: 'Home', url: '/home', icon: 'home', active: true },
     { title: 'Profile', url: '/profile', icon: 'person', active: false },
-    { title: 'Orders', url: '/orders', icon: 'bag-handle', active: false },
+   // { title: 'Orders', url: '/orders', icon: 'bag-handle', active: false },
     { title: 'Addresses', url: '/addresses', icon: 'location', active: false },
-    {
-      title: 'Change Password',
-      url: '/change-password',
-      icon: 'key',
-      active: false,
-    },
-    {
-      title: 'About Us',
-      url: '/about',
-      icon: 'information-circle',
-      active: false,
-    },
-    {
-      title: 'Privacy Policy',
-      url: '/privacy',
-      icon: 'document-lock',
-      active: false,
-    },
+    //{
+     // title: 'Change Password',
+      //url: '/change-password',
+      //icon: 'key',
+      //active: false,
+    //},
+    //{
+      //title: 'About Us',
+      //url: '/about',
+      //active: false,
+    //},
+   // {
+     // title: 'Privacy Policy',
+     // url: '/privacy',
+     // icon: 'document-lock',
+     // active: false,
+   // },
     { title: 'Sign Out', icon: 'log-out', route: true, active: false },
   ];
 

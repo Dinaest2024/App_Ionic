@@ -8,149 +8,149 @@ export class ApiService {
   items: any[] = [
     {
       id: '1',
-      name: 'Surprise Gift Basket',
-      price: 999,
+      name: 'Globes',
+      price: 10000,
       status: true,
       rating: 4.9,
-      cover: 'assets/gifts/gift-basket.jpg',
-      description: 'Unbox joy and excitement with our carefully curated Surprise Gift Basket, filled with delightful surprises.'
+      cover: 'assets/gifts/product1.jpg',
+      description: 'Brighten up any space with our vibrant and elegant decorative globes.'
     },
     {
       id: '2',
-      name: 'Luxury Chocolate Box',
-      price: 500,
+      name: 'Caffee',
+      price: 5000,
       status: true,
       rating: 4.7,
-      cover: 'assets/gifts/chocolate-box.jpg',
-      description: 'Indulge in the rich and decadent flavors of our Luxury Chocolate Box, a perfect treat for any occasion.'
+      cover: 'assets/gifts/producto2.jpg',
+      description: 'Enjoy the unique aroma and taste of our premium, perfectly roasted coffee.'
     },
     {
       id: '3',
-      name: 'OTT Subscription',
-      price: 1500,
+      name: 'White',
+      price: 15000,
       status: true,
       rating: 4.9,
-      cover: 'assets/gifts/gift-card.jpg',
-      description: 'Immerse yourself in a world of entertainment with our exclusive OTT Subscription gift.'
+      cover: 'assets/gifts/producto3.jpg',
+      description: 'A timeless classic: high-quality white clothing for any special or casual occasion.'
     },
     {
       id: '4',
-      name: 'Designer Handbag',
+      name: 'Shoes',
       price: 10000,
       status: true,
       rating: 4.8,
-      cover: 'assets/gifts/handbag.jpg',
-      description: 'Elevate your style with our chic and fashionable Designer Handbag, a statement piece for any ensemble.'
+      cover: 'assets/gifts/producto4.jpg',
+      description: 'Walk in style and comfort with our modern and versatile shoe collection.'
     },
     {
       id: '5',
-      name: 'Personalized Mug',
-      price: 350,
+      name: 'Flowers',
+      price: 35000,
       status: true,
       rating: 4.5,
-      cover: 'assets/gifts/mug.jpg',
-      description: 'Start your day with a touch of personalization using our delightful Personalized Mug.'
+      cover: 'assets/gifts/producto5.jpg',
+      description: 'Surprise someone special with a beautiful bouquet of fresh and fragrant flowers.'
     },
     {
       id: '6',
-      name: 'Perfume Set',
-      price: 2000,
+      name: 'Bag',
+      price: 20000,
       status: true,
       rating: 4.9,
-      cover: 'assets/gifts/perfume-set.jpg',
-      description: 'Discover the essence of luxury with our Perfume Set, a captivating blend of enchanting fragrances.'
+      cover: 'assets/gifts/producto6.jpg',
+      description: 'Carry your essentials in style with our elegant and functional bags.'
     },
     {
       id: '7',
-      name: 'Jewelry Box',
-      price: 4000,
+      name: 'Box M',
+      price: 40000,
       status: true,
       rating: 4.6,
-      cover: 'assets/gifts/jewelry-box.jpg',
-      description: 'Store your precious jewels in style with our exquisitely designed Jewelry Box, a symbol of elegance.'
+      cover: 'assets/gifts/producto7.jpg',
+      description: 'Medium storage box, perfect for organizing your belongings with a sophisticated touch.'
     },
     {
       id: '8',
-      name: 'Romantic Dinner Set',
+      name: 'Radio',
       price: 10000,
       status: true,
       rating: 4.9,
-      cover: 'assets/gifts/dinner-set.jpg',
-      description: 'Create magical moments with our Romantic Dinner Set, perfect for a candlelit evening with your loved one.'
+      cover: 'assets/gifts/producto8.jpg',
+      description: 'Enjoy the best music and news with our high-quality portable radio.'
     },
     {
       id: '9',
-      name: 'Leather Wallet',
-      price: 2500,
+      name: 'Clothes',
+      price: 25000,
       status: true,
       rating: 4.6,
-      cover: 'assets/gifts/wallet.jpg',
-      description: 'Upgrade your accessory collection with our stylish and durable Leather Wallet, a blend of functionality and fashion.'
+      cover: 'assets/gifts/producto9.jpg',
+      description: 'Explore our fashionable clothing collection, designed for comfort and everyday style.'
     },
     {
       id: '10',
-      name: 'Phone Case',
-      price: 999,
+      name: 'Clothes',
+      price: 20000,
       status: true,
       rating: 4.7,
-      cover: 'assets/gifts/phone-case.jpg',
-      description: 'Protect your device in style with our trendy Phone Case, personalized for the modern individual.'
+      cover: 'assets/gifts/producto10.jpg',
+      description: 'Versatile, high-quality garments to complement your wardrobe with elegance.'
     },
     {
       id: '11',
-      name: 'Diamond Jewelry',
+      name: 'Ice',
       price: 20000,
       status: true,
       rating: 4.6,
-      cover: 'assets/gifts/diamond.jpg',
-      description: 'Adorn yourself with elegance and grace with our exquisite Diamond Jewelry collection.'
+      cover: 'assets/gifts/producto14.jpg',
+      description: 'Premium ice cooler to keep your drinks cold for any special occasion.'
     },
     {
       id: '12',
-      name: 'Leather Travel Set',
-      price: 5000,
+      name: 'Headphones',
+      price: 50000,
       status: true,
       rating: 4.5,
-      cover: 'assets/gifts/travel-bag.jpg',
-      description: 'Embark on journeys in style with our Leather Travel Set, crafted for the modern-day explorer.'
+      cover: 'assets/gifts/producto11.jpg',
+      description: 'Experience immersive sound with our high-fidelity headphones.'
     },
     {
       id: '13',
-      name: 'Modern Wall Clock',
-      price: 2500,
+      name: 'Box Té',
+      price: 35000,
       status: true,
       rating: 4.7,
-      cover: 'assets/gifts/wall-clock.jpg',
-      description: 'Enhance your living space with our Modern Wall Clock, a blend of functionality and contemporary design.'
+      cover: 'assets/gifts/producto12.jpg',
+      description: 'Tea box with a selection of exclusive flavors for true tea lovers.'
     },
     {
       id: '14',
-      name: 'Eco-friendly Planters',
-      price: 850,
+      name: 'Box',
+      price: 8500,
       status: true,
       rating: 4.5,
-      cover: 'assets/gifts/planters.jpg',
-      description: 'Bring nature indoors with our Eco-friendly Planters, designed for the eco-conscious and nature enthusiasts.'
+      cover: 'assets/gifts/producto13.jpg',
+      description: 'The perfect gift box for storing memories and special keepsakes.'
     },
   ];
 
   coupons: any[] = [
     {
       id: "1",
-      code: "SAVE10",
+      code: "SAVE",
       discount: 10,
       isPercentage: true,
-      description: "Get 10% off on your order",
+      description: "Get 10% off",
       isActive: true,
       expiryDate: "2024-06-30",
       minimumOrderAmount: 50,
     },
     {
       id: "2",
-      code: "FREESHIP",
+      code: "BONUS",
       discount: 50,
       isPercentage: false,
-      description: "Flat 50 bucks off on all orders",
+      description: "Get 50% off ", 
       isActive: true,
       expiryDate: "2024-12-31",
     },
@@ -159,16 +159,16 @@ export class ApiService {
       code: "BUNDLEDEAL",
       discount: 20,
       isPercentage: true,
-      description: "Buy one get one 50% off",
+      description: "Get 50% off",
       isActive: false,
       expiryDate: "2024-09-15",
     },
     {
       id: "4",
-      code: "GIFTSHOP",
+      code: "GIFT",
       discount: 30,
       isPercentage: true,
-      description: "Get 30% off on orders above 5000",
+      description: "Get 30% off",
       isActive: true,
       expiryDate: "2024-12-31",
       minimumOrderAmount: 5000,

@@ -78,7 +78,7 @@ export class CouponsComponent implements OnInit {
       if (amt < 0) return amt;
     }
     amt = coupon?.isPercentage
-      ? this.orderTotal * (coupon?.discount / 100)
+      ? this.orderTotal * (coupon?.discount / 10)
       : coupon?.discount;
     if (coupon?.upto_discount) {
       console.log('check amt: ', amt);
