@@ -9,7 +9,7 @@ import { StorageService } from '../storage/storage.service';
 export class CartService {
 
   model: any = null;
-  total_delivery_charge = 10000;
+  total_delivery_charge = 100000;
   tax = 15; // in percentrage
   cartStoreName = Strings.CART_STORAGE;
   currency = Strings.CURRENCY;
